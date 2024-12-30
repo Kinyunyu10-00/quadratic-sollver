@@ -8,3 +8,5 @@ void solveQuadratic(double a, double b, double c) {
     double root1, root2;
 
  
+    if (discriminant > 0) {
+        root1 = (-b + sqrt(discriminant)) / (2*a);
