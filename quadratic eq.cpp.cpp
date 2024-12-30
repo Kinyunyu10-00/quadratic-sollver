@@ -15,3 +15,4 @@ void solveQuadratic(double a, double b, double c) {
 		cout << "Roots are real and different." << endl;
         cout << "Root 1: " << root1 << endl;
         cout << "Root 2: " << root2 << endl;
+        }
