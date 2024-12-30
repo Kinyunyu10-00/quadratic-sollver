@@ -10,3 +10,4 @@ void solveQuadratic(double a, double b, double c) {
  
     if (discriminant > 0) {
         root1 = (-b + sqrt(discriminant)) / (2*a);
+        root2 = (-b - sqrt(discriminant)) / (2*a);
