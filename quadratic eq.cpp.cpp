@@ -20,4 +20,5 @@ void solveQuadratic(double a, double b, double c) {
         
          else if (discriminant == 0) {
                   root1 = root2 = -b / (2*a);
-                   cout << "Roots are real and same." << endl;
+                  cout << "Roots are real and same." << endl;
+                  cout << "Root 1 = Root 2: " << root1 << endl;
