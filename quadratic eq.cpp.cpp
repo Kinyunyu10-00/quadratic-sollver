@@ -24,3 +24,4 @@ void solveQuadratic(double a, double b, double c) {
                   cout << "Root 1 = Root 2: " << root1 << endl;
                    }
     else {
+    	 double realPart = -b / (2*a);
