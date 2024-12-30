@@ -26,4 +26,4 @@ void solveQuadratic(double a, double b, double c) {
     else {
     	 double realPart = -b / (2*a);
     	 double imaginaryPart = sqrt(-discriminant) / (2*a);
-    	  cout << "Roots are complex and different." 
+    	  cout << "Roots are complex and different." << endl;
