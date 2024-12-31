@@ -40,3 +40,7 @@ int main() {
     cin >> a >> b >> c;
 
     solveQuadratic(a, b, c);
+
+
+    return 0;
+}
