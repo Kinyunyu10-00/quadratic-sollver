@@ -29,4 +29,12 @@ void solveQuadratic(double a, double b, double c) {
     	  cout << "Roots are complex and different." << endl;
     	  
     	 cout << "Root 1: " << realPart << " + " << imaginaryPart << "i"<< endl;
-    	 cout << "Root 2: " << realPart << " -  " << imaginaryPart 
+    	 cout << "Root 2: " << realPart << " -  " << imaginaryPart << "i" << endl;
+    }
+}
+
+int main() {
+    double a, b, c;
+
+    cout << "Enter coefficients a, b and c: ";
+    cin >> a >> b >> c;
