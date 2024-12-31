@@ -38,3 +38,5 @@ int main() {
 
     cout << "Enter coefficients a, b and c: ";
     cin >> a >> b >> c;
+
+    solveQuadratic(a, b, c);
